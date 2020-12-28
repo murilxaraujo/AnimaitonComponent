@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
 
     @objc func openAnimationComponentVC() {
-        let beagleScreenVc = Beagle.screen(.declarative(.init(child: AnimationComponent(url: "https://assets7.lottiefiles.com/packages/lf20_c9miik7h.json"))))
+        let beagleScreenVc = Beagle.screen(.declarative(.init(child: AnimationComponent(url: "https://assets7.lottiefiles.com/packages/lf20_c9miik7h.json", height: 300))))
         self.present(beagleScreenVc, animated: true, completion: nil)
     }
     

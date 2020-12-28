@@ -134,6 +134,7 @@
 		4B29CDA2A979FAA2B9C4BAA77D6AE0B8 /* AnimationPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144EEEF0A65DD74A54A764113E5C6AA /* AnimationPublic.swift */; };
 		4B403328ED6C98C9CB9566E6098B4D17 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DCD3B4C55F5498A367EC856B8F8D35 /* Observable.swift */; };
 		4B52AFAF259A5F460080BC31 /* AnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52AFAE259A5F460080BC31 /* AnimationComponent.swift */; };
+		4B52AFB9259A76A30080BC31 /* CustomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52AFB8259A76A30080BC31 /* CustomAnimationView.swift */; };
 		4B56216B803C6DD325F0F7737EDCDA54 /* YogaTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1465389148FB15CDFACE296EA411F1 /* YogaTranslator.swift */; };
 		4CD40FDD5A404AC149FA86C71CE14018 /* FormManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E0108473BA1A401B77BF3AFBF5665 /* FormManager.swift */; };
 		4D7E3E41F5BC2119561146853019D47E /* ShapeLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F42E5CD1D322AEA6EF71BD2A1F9176 /* ShapeLayerModel.swift */; };
@@ -618,6 +619,7 @@
 		4A0FFB8B865474B273B780397C6C4E54 /* Pods-AnimationComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AFF2B3FEB7B7931869F2EEADF091BA0 /* UrlBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlBuilder.swift; path = iOS/Sources/Beagle/Sources/Networking/UrlBuilder.swift; sourceTree = "<group>"; };
 		4B52AFAE259A5F460080BC31 /* AnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationComponent.swift; sourceTree = "<group>"; };
+		4B52AFB8259A76A30080BC31 /* CustomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationView.swift; sourceTree = "<group>"; };
 		4C83066E7834F397D1CF1D5CF58CE081 /* FormRemoteAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRemoteAction.swift; path = iOS/Schema/Sources/Action/Types/FormRemoteAction.swift; sourceTree = "<group>"; };
 		4DAE1C028D076D0D29B4D03561CDDE96 /* NodePropertyMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodePropertyMap.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift"; sourceTree = "<group>"; };
 		4DC17272F3048C91440ECD452A45B7A8 /* ValidatorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorProvider.swift; path = "iOS/Sources/Beagle/Sources/Components/Form+Renderable/ValidatorProvider.swift"; sourceTree = "<group>"; };
@@ -1207,6 +1209,7 @@
 				7025B85971ECD7FB7FB46CA8F191ADD7 /* Pod */,
 				AEB12456CF821C124C33E5DB8CF24CEC /* Support Files */,
 				4B52AFAE259A5F460080BC31 /* AnimationComponent.swift */,
+				4B52AFB8259A76A30080BC31 /* CustomAnimationView.swift */,
 			);
 			name = AnimationComponent;
 			path = ../..;
@@ -2137,6 +2140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B52AFB9259A76A30080BC31 /* CustomAnimationView.swift in Sources */,
 				4B52AFAF259A5F460080BC31 /* AnimationComponent.swift in Sources */,
 				AE558D7C3643496EA25372237C59C476 /* AnimationComponent-dummy.m in Sources */,
 			);
