@@ -1,0 +1,36 @@
+{
+  "name": "AnimationComponent",
+  "version": "0.1.0",
+  "summary": "Lottie animation component for Beagle BFF.",
+  "description": "Lottie vector animation component for Beagle BFF",
+  "homepage": "https://github.com/murilxaraujo/AnimationComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "murilxaraujo": "muernandes@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/murilxaraujo/AnimationComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "AnimationComponent/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "lottie-ios": [
+
+    ],
+    "Beagle": [
+
+    ],
+    "YogaKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

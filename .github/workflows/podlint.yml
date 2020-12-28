@@ -1,0 +1,24 @@
+name: Pod lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macOS-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Update cocoapods
+        run: gem install cocoapods
+
+      - name: Installs pods
+        run: pod install --project-directory=Example
+        
+      - name: Run pod lint
+        run: pod lib lint
