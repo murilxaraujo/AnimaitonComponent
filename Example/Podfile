@@ -1,13 +1,12 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'AnimationComponent_Example' do
   pod 'AnimationComponent', :path => '../'
+  pod 'YogaKit', :git => 'https://github.com/ZupIT/YogaKit'
 
   target 'AnimationComponent_Tests' do
     inherit! :search_paths
-
-    
   end
 end
