@@ -1,6 +1,6 @@
 # AnimationComponent
 
-[![CI Status](https://img.shields.io/travis/modevstudio/AnimationComponent.svg?style=flat)](https://travis-ci.org/modevstudio/AnimationComponent)
+![Pod lint](https://github.com/murilxaraujo/AnimationComponent/workflows/Pod%20lint/badge.svg)
 [![Version](https://img.shields.io/cocoapods/v/AnimationComponent.svg?style=flat)](https://cocoapods.org/pods/AnimationComponent)
 [![License](https://img.shields.io/cocoapods/l/AnimationComponent.svg?style=flat)](https://cocoapods.org/pods/AnimationComponent)
 [![Platform](https://img.shields.io/cocoapods/p/AnimationComponent.svg?style=flat)](https://cocoapods.org/pods/AnimationComponent)
