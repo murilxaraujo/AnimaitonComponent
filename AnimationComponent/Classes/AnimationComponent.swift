@@ -10,6 +10,7 @@ import UIKit
 import Beagle
 import Lottie
 import BeagleSchema
+
 public struct AnimationComponent: ServerDrivenComponent {
     let url: String
     let height: CGFloat
